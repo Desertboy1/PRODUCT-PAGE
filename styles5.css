@@ -1,0 +1,244 @@
+:root {
+    --building-color1: #FFBF00;
+    --building-color2: #EEE;
+    --building-color3: #FFC300 ;
+    --building-color4: #FFFF00;}
+
+  * {
+    
+    box-sizing: border-box;
+    background-color: #EEE;
+    font-family: 'Lato', sans-serif;
+    
+    
+  }
+  body{
+    margin:0;
+    padding: 0;
+  }
+  
+
+/*NAVIGATION */
+.grid-container{
+    display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;}
+  /*NAVIGATION BAR LOGO*/
+
+  .header-img{
+    width:50%;
+    margin-top: 14px;
+    margin-left: 30px;
+    
+    ;
+  }
+
+   /*NAVIGATION BAR LINK*/ 
+  #nav-bar{
+    display: flex;
+    width:100%;
+    margin: 0;
+    justify-content: flex-end;
+    
+    
+  }
+  nav ul{
+   padding:20px 50px;
+   margin: 0px;
+
+  
+   
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    padding:0 20px;
+    
+  }
+  nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    
+  }
+  
+  /*GET STARTED */
+  #get-started{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1em;
+  }
+.started-header{
+    margin-top:35px;
+    margin-bottom:0;
+    padding:10px 40px;
+}
+  #form{
+    display: flex;
+  flex-direction: column;
+  }
+#email{
+    width:60%;
+    height:30px;
+    border-radius: 1px;
+    margin-left: 19%;
+    border-width: 2px;
+    border-style: inset;
+    border-color: rgba(118, 118, 118,0.4);
+    background-color: white;
+
+}
+input[type=button] {
+    background-color:#f1c40f;
+    border: none;
+    color: #000;
+    padding: 3px 32px;
+    text-decoration: none;
+    margin: 15px 32% 25px;
+    cursor: pointer;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+  }
+  #main{
+    width:75%;
+    margin: 0 auto;
+  }
+  /*TRADEMARK*/
+  .wrapper {
+    display: grid;
+    grid-template-columns: 0.7fr 3fr;
+    width:100%;
+    margin: 50px auto;
+  }
+ 
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkorange;  }
+
+    .fa fa-3x fa-truck{
+        width: 500px;
+        height: 500px;
+    }
+    .trademark-h3{
+        margin: 0;
+        padding:5px;
+    }
+    .trademark-p{
+        margin:0 ;
+        padding:5px;
+    }
+
+     /*YOUTUBE-VIDEO*/
+     #video{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width:60%;
+        height:320px;
+        margin:30px auto;
+
+     }
+
+     /*PRICES*/
+     #price-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:100%;
+    margin: 35px auto;
+  
+     }
+     .price-div{
+
+       margin: 0px 15px 40px;
+       border-radius: 7px;
+       padding:0px;
+       border: 1px solid black;
+       
+  
+     }
+
+
+     .price-h3{
+        background-color: #C8C8C8;
+        margin:0px auto 10px;
+        padding:25px 30px;
+        font-weight: 750;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+     }
+     .Bigger{
+        font-size: 27px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 750;
+        padding:10px 10px 40px;
+        
+     }
+
+     .price-p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:0;
+        padding:5px;
+     }
+
+     .price-div.button{
+      display: block;
+      width:30%;
+      text-decoration: none;
+      margin:20px auto 15px;
+      padding:10px;
+      background-color:#f1c40f;
+      color: #000;
+ 
+    }
+    .price-div.button:hover{
+     
+      background-color:#ff8c00;
+ 
+    }
+
+     /*FOOTER*/
+     .a{
+      text-align: right;
+      width:75%;
+      margin:0 auto;
+      background-color: #C8C8C8;
+     }
+     .a ul{
+      background-color: #C8C8C8;
+      margin-top: 0;
+      margin-bottom: 0;
+     }
+     .a ul li{
+      display: inline-block;
+      padding: 0 6px;
+      margin: 5px 6px 0px;
+      background-color: #C8C8C8;
+     }
+     .a ul li a{
+      text-decoration: none;
+      background-color: #C8C8C8;
+      color: #000;
+     }
+     .a p{
+      background-color: #C8C8C8;
+      margin:15px 10px;
+      padding-bottom: 20px;
+     }
